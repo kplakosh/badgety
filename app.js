@@ -11,3 +11,13 @@ var budgetController = (function() {
         }
     }
 })();
+
+var UIController = (function() {
+    // Some code
+})();
+
+var controller = (function(budgetCtrl, UICtrl) {
+
+    budgetCtrl.publicTest(5);
+
+})(budgetController, UController);
